@@ -101,8 +101,8 @@ export function hookPrepareDerivedData() {
                     ")|basic:true] . 你不必进行攻击骰。该伤害为区域伤害。豁免大失败的生物都会承受武器重击的附带效果，包括武器的重击专精效果。</p>" +
                     "  </div>" +
                     "</div>" +
-                    '<button type="button" class="success" data-action="strike-damage">伤害 </button>'+
-                    '<button type="button" class="critical-success" data-action="strike-critical">重击 </button>'+
+                    // '<button type="button" class="success" data-action="strike-damage">伤害 </button>'+
+                    // '<button type="button" class="critical-success" data-action="strike-critical">重击 </button>'+
                     '<button data-action="useSingleAmmo">使用弹药</button>';
                   ChatMessage.create(chatData);
                 }
@@ -161,8 +161,8 @@ export function hookPrepareDerivedData() {
                     ")|basic:true]  你不必进行攻击骰。该伤害为区域伤害。豁免大失败的生物都会承受武器重击的附带效果，包括武器的重击专精效果。自动射击会耗用武器最大弹容一半的弹药。  </p>" +
                     "  </div>" +
                     "</div>" +
-                    '<button type="button" class="success" data-action="strike-damage">伤害 </button>'+
-                    '<button type="button" class="critical-success" data-action="strike-critical">重击 </button>'+
+                    // '<button type="button" class="success" data-action="strike-damage">伤害 </button>'+
+                    // '<button type="button" class="critical-success" data-action="strike-critical">重击 </button>'+
                     '<button data-action="useHalfAmmo">使用弹药</button>';
                   ChatMessage.create(chatData);
                 }

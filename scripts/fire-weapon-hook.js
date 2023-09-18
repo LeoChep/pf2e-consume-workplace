@@ -5,7 +5,7 @@ Hooks.once('tokenActionHudCoreApiReady', async (coreModule)=>{
   console.log(coreModule)
 })
 Hooks.on("ready", () => {
-  alert("hello,load it!");
+  // alert("hello,load it!");
 
   hookPrepareDerivedData();
   /**
